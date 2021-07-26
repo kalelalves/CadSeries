@@ -66,7 +66,7 @@ using CadastroSeries.Models;
             WriteLiteral("\r\n<h2>Index</h2>\r\n\r\n<p>\r\n    ");
             EndContext();
             BeginContext(121, 47, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "6428081ffdc24d989d1ab7a9629dc464", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "a75b6f2ae89d45008991cab473296efa", async() => {
                 BeginContext(144, 20, true);
                 WriteLiteral("Cadastrar nova série");
                 EndContext();
@@ -176,7 +176,7 @@ using CadastroSeries.Models;
             WriteLiteral("\r\n            </td>\r\n            <td>\r\n                ");
             EndContext();
             BeginContext(1156, 58, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "9bc992e2eb684529bf8474b3ed05b8d9", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "f67f909c334e40d2911101e13e69ca3e", async() => {
                 BeginContext(1206, 4, true);
                 WriteLiteral("Edit");
                 EndContext();
@@ -211,7 +211,7 @@ using CadastroSeries.Models;
             WriteLiteral(" |\r\n                ");
             EndContext();
             BeginContext(1234, 64, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "00cdb6608d354edc951bd4589c0dadb2", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "cd997f86b0044e3ab6402eb0a8a216b7", async() => {
                 BeginContext(1287, 7, true);
                 WriteLiteral("Details");
                 EndContext();
@@ -246,7 +246,7 @@ using CadastroSeries.Models;
             WriteLiteral(" |\r\n                ");
             EndContext();
             BeginContext(1318, 62, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c1ef4f03b35a4e58b68c9bfc04292aa7", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "7d0def4e88784987ba96a511a1dcbef2", async() => {
                 BeginContext(1370, 6, true);
                 WriteLiteral("Delete");
                 EndContext();
