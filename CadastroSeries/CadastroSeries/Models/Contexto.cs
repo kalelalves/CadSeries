@@ -1,5 +1,5 @@
 ﻿using CadastroSeries.Models;
-using GerenciadorDespesas.Mapeamento;
+
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -16,6 +16,8 @@ namespace GerenciadorDespesas.Models
         public DbSet<Genero> Generos { get; set; }
         public Contexto(DbContextOptions<Contexto> opcoes) : base(opcoes) { }
 
+
+        //Relacinamentos mapeados
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Serie>().HasOne(s=> s.Genero).WithMany(s => s.Series).HasForeignKey(s => s.GeneroId);
