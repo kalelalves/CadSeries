@@ -48,7 +48,7 @@ namespace CadastroSeries.Controllers
         // GET: Series/Create
         public IActionResult Create()
         {
-            ViewData["GeneroId"] = new SelectList(_context.Generos, "GeneroId", "GeneroId");
+            ViewData["GeneroId"] = new SelectList(_context.Generos, "GeneroId", "Nome");
             return View();
         }
 
@@ -65,7 +65,7 @@ namespace CadastroSeries.Controllers
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["GeneroId"] = new SelectList(_context.Generos, "GeneroId", "GeneroId", serie.GeneroId);
+            ViewData["GeneroId"] = new SelectList(_context.Generos, "GeneroId", "Nome", serie.GeneroId);
             return View(serie);
         }
 

@@ -63,7 +63,7 @@ namespace CadastroSeries
             {
                 routes.MapRoute(
                     name: "default",
-                    template: "{controller=Home}/{action=Index}/{id?}");
+                    template: "{controller=Series}/{action=Index}/{id?}");
             });
         }
     }
